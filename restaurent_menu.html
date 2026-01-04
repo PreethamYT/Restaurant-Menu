@@ -9,7 +9,7 @@
                 <br><img src="https://theharekrishnamovement.org/wp-content/uploads/2015/03/krishna-prasadam.jpg" alt="krishna-prasadam-image" style="width:75px;">
                 <h2><i>✨Divine Kitchen</i></h2><br>
                 <a href="#menu" style = "color:black; font-size:x-large;">Menu</a> <br>
-                <a href="#order-form" style = "color:black; font-size:x-large;">Order Form</a>
+                <a href="#order-form" style = "color:black; font-size:x-large;">Place your order</a>
             </nav>
         </header>
         <main>
@@ -32,13 +32,22 @@
                 </article>
             </section>
             <section>
-                <h2>Order Form</h2>
-                <article>
-                    
-                </article>
+                <h2 id="order-form">Place Your Order</h2>
+                <form>
+                    <label id="paneer">Paneer Makhani Quantity</label><br><input type="number" min="0" for="paneer"><br><br>
+                    <label id="jamun">Gulab Jamun Quantity</label><br><input type="number" min="0" for="jamun"><br><br>
+                    <label id="sandwich">Veg grilled sandwich Quantity</label><br><input type="number" min="0" for="sandwich"><br>
+                    <p><i><b>Add ons(Optional)</b></i></p>
+                    <label id="sandwich">Lassi</label><input type="radio" name="option">
+                    <label id="sandwich">Mango Juice</label><input type="radio" name="option">
+
+                    <h4>Special Requests (Optional)</h4>
+                    <textarea></textarea> <br><br>
+                    <input type="submit" value="Go to Checkout"><br><br>
+                </form>
             </section>
         </main>
-        <footer style="position:fixed; display:flex; justify-content:center;bottom:0;width:100%; background-color:cadetblue">
+        <footer style="display:flex; justify-content:center;bottom:0;width:100%; background-color:cadetblue">
             <p>Made with love by @PreethamYT</p>
         </footer>
     </body>
